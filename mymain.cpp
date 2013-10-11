@@ -31,6 +31,11 @@ int RunThreadMessageLoop()
 
 int main(int argc, char * argv[])
 {
-	CTestFrame mainFrame(GetModuleHandle(NULL), "MyWindow");
-	return RunThreadMessageLoop();
+//	CTestFrame * mainFrame = new CTestFrame(GetModuleHandle(NULL), "MyWindow");
+//	int res = RunThreadMessageLoop();
+//	delete mainFrame;
+//	return res;
+//	CTestFrame mainFrame = CTestFrame(GetModuleHandle(NULL), "MyWindow");
+//	return RunThreadMessageLoop();
+	return 0;
 }
