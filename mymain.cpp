@@ -42,10 +42,12 @@ int SeeThis()
 	{
 		for(int x = 0; x < 600; x += 100)
 		{
-			frameMain.AddButton("Кнопочка )))", x,y,100,50);
+//			frameMain.AddButton("Кнопочка )))", x,y,100,50);
 		}
 	}
 
+	frameMain.AddTreeView("TreeView", 0, 0, 200, 100);
+	frameMain.AddStateButton("Push", 50, 110, 150, 50);
 	frameMain.ShowFrame();
 	frameMain.UpdateFrame();
 

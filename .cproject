@@ -41,6 +41,7 @@
 								</option>
 								<option id="gnu.cpp.link.option.libs.857200891" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="AppFrame"/>
+									<listOptionValue builtIn="false" value="Comctl32"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1663693087" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
